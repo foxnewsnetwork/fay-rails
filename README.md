@@ -1,6 +1,18 @@
 # Fay::Rails
 
-TODO: Write a gem description
+Combos Haskell Fay into rails asset pipeline so you can write javascript in haskell.
+
+If this isn't working, you probably don't have fay and fay-base installed. Run the following:
+
+```shell
+cabal install fay fay-base
+```
+
+to download the fay command line tool (which is used in here to compile).
+
+If you're having trouble with it, please consult the [fay-lang wiki](https://github.com/faylang/fay/wiki)
+
+Note you must have haskell installed on your computer.
 
 ## Installation
 
