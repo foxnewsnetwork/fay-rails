@@ -1,3 +1,4 @@
+require 'open3'
 module Fay
   class Compiler
     def self.compile(source)
